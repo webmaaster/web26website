@@ -16,6 +16,9 @@ section {
     padding: 4% 0;
 }
 
+i {
+    font-size: 50px;
+}
 /* Section: Header */
 header {
     background-image: url('../images/logo2.jpg');
@@ -62,7 +65,7 @@ nav {
 /*Section: About */
 
 #about {
-    background-color: teal;
+    background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,6 +91,7 @@ nav {
 
 .skillsCont div {
     width: 25%;
+    text-align: center;
 }
 
 
