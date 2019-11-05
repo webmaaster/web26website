@@ -95,7 +95,7 @@ nav {
 }
 
 
-@media (max-width: 900px){
+@media (max-width: 940px){
     body {
         background-color: green;
     }
@@ -103,9 +103,36 @@ nav {
 }
 
 
+@media (max-width: 940px){
+    #about div {
+        width: 80%;
+    }
+
+}
+
+
+
+
+
+
+
+
 @media (max-width: 767px){
     body {
         background-color: red;
+    }
+
+}
+
+@media (max-width: 767px){
+    .skillsCont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skillsCont div{
+        width: 90;
+        text-align: center;
     }
 
 }
@@ -116,6 +143,28 @@ nav {
     }
 
 }
+
+
+
+@media (max-width: 480px){
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .logoCont {
+        width: 15%;
+    }
+    .links {
+        width: 90%;
+    }
+    #about div {
+        width: 90%;
+    }
+
+}
+
 
 
 
