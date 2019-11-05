@@ -97,10 +97,27 @@ nav {
 
 @media (max-width: 900px){
     body {
-        background-color: orange;
+        background-color: green;
     }
 
 }
+
+
+@media (max-width: 767px){
+    body {
+        background-color: red;
+    }
+
+}
+
+@media (max-width: 480px){
+    body {
+        background-color: yellow;
+    }
+
+}
+
+
 
 
 
