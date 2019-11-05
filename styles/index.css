@@ -7,3 +7,19 @@
     max-width: 100%;
     border: 1px solid grey;
 }
+
+body {
+    line-height: 2;
+}
+
+section {
+    padding: 4% 0;
+}
+
+/* Section: Header */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
