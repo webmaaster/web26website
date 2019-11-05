@@ -22,6 +22,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 90vh;
 }
 nav {
     display: flex;
@@ -41,6 +42,63 @@ nav {
 
 
 }
+
+
+.titles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+
+
+.titles div {
+    width: 50%;
+    text-align: center;
+    
+}
+
+/*Section: About */
+
+#about {
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about h2 {
+    text-align: center;
+}
+#about div {
+    background-color: thistle;
+    width: 60%;
+}
+
+/* Section: Skills */
+
+#skills h2{
+    text-align: center;
+}
+
+.skillsCont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillsCont div {
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
